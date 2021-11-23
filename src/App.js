@@ -3,6 +3,7 @@ import React from 'react'
 import About from './About'
 import {BrowserRouter as Router, Routes, Link, Route} from 'react-router-dom'
 import Home from './Home'
+import Nimadir from './nimadir'
 
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -24,6 +25,7 @@ function App() {
         </Routes>
       </Router> */}
       <Home />
+      <Nimadir />
       
     </div>
   );
